@@ -11,14 +11,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SimpleItemAdapter extends RecyclerView.Adapter<SimpleItemAdapter.ItemHolder> {
+class SimpleItemAdapter extends RecyclerView.Adapter<SimpleItemAdapter.ItemHolder> {
 
     /*
      * Click handler interface(点击事件处理接口). RecyclerView does not have
      * its own built in like AdapterViews do.
      */
-    public interface OnItemClickListener {
-        public void onItemClick(ItemHolder item, int position);
+    interface OnItemClickListener {
+        void onItemClick(ItemHolder item, int position);
         /*redundant，多余的*/
     }
 
@@ -27,12 +27,14 @@ public class SimpleItemAdapter extends RecyclerView.Adapter<SimpleItemAdapter.It
             "Carrots", "Peas", "Broccoli",
             "Pork", "Chicken", "Beef", "Lamb"
     };
+
+    /**item 的集合*/
     private List<String> mItems;
 
     private OnItemClickListener mOnItemClickListener;
     private LayoutInflater mLayoutInflater;
 
-    public SimpleItemAdapter(Context context) {
+    SimpleItemAdapter(Context context) {
         mLayoutInflater = LayoutInflater.from(context);
         //Create static list of dummy items
         mItems = new ArrayList<String>();
@@ -58,7 +60,7 @@ public class SimpleItemAdapter extends RecyclerView.Adapter<SimpleItemAdapter.It
         return mItems.size();
     }
 
-    public OnItemClickListener getOnItemClickListener() {
+    private OnItemClickListener getOnItemClickListener() {
         return mOnItemClickListener;
     }
 
@@ -67,14 +69,15 @@ public class SimpleItemAdapter extends RecyclerView.Adapter<SimpleItemAdapter.It
     }
 
     /* Methods to manage modifying the data set */
+    /**在指定的 position 处添加 item*/
     public void insertItemAtIndex(String item, int position) {
         mItems.add(position, item);
-        //Notify the view to trigger a change animation
+        //Notify the view to trigger（引发） a change animation
         notifyItemInserted(position);
     }
 
     public void removeItemAtIndex(int position) {
-        if (position >= mItems.size()) return;
+        if (position >= mItems.size()) return; /*保证RecyclerView 容器中至少有一个 item*/
 
         mItems.remove(position);
         //Notify the view to trigger a change animation

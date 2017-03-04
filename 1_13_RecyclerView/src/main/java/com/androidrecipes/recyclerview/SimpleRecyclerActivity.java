@@ -44,7 +44,7 @@ public class SimpleRecyclerActivity extends ActionBarActivity implements
         //Connector line decorations for vertical grid
         mConnectors = new ConnectorDecoration(this);
 
-        //Stagger the vertical grid
+        //Stagger(交错排列) the vertical grid
         mVerticalGridManager.setSpanSizeLookup(new GridStaggerLookup());
 
         mAdapter = new SimpleItemAdapter(this);
@@ -70,11 +70,12 @@ public class SimpleRecyclerActivity extends ActionBarActivity implements
         return selectLayoutManager(item.getItemId());
     }
 
+    /**选择布局管理器的类型*/
     private boolean selectLayoutManager(int id) {
         switch (id) {
-            case R.id.action_vertical:
+            case R.id.action_vertical: /*选择：垂直操作的 布局管理器*/
                 mRecyclerView.setLayoutManager(mVerticalManager);
-                mRecyclerView.removeItemDecoration(mConnectors);
+                mRecyclerView.removeItemDecoration(mConnectors); /*除去自定义的条目装饰物*/
                 return true;
             case R.id.action_horizontal:
                 mRecyclerView.setLayoutManager(mHorizontalManager);
@@ -90,11 +91,11 @@ public class SimpleRecyclerActivity extends ActionBarActivity implements
                 return true;
             case R.id.action_add_item: /*添加条目*/
                 //Insert a new item
-                mAdapter.insertItemAtIndex("Android Recipes", 1);
+                mAdapter.insertItemAtIndex("Android Recipes", 1); /*在第 2 个位置处添加字符串“Android Recipes”*/
                 return true;
             case R.id.action_remove_item: /*移除条目*/
                 //Remove the first item
-                mAdapter.removeItemAtIndex(1);
+                mAdapter.removeItemAtIndex(1); /*移除第 2 个位置处的 item*/
                 return true;
             default:
                 return false;

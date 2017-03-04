@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--插入物的外边距-->
     <dimen name="inset_margin">8dp</dimen>
     <dimen name="connector_stroke">2dp</dimen>
 </resources>
