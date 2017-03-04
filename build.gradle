@@ -7,6 +7,9 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
 
+        // Plugin to help with annotation processing
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -15,6 +18,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        mavenLocal()
     }
 }
 
@@ -22,14 +26,16 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+// Define versions in a single place
 ext {
     // Sdk and tools
-    minSdkVersion = 7
+    minSdkVersion = 9
     targetSdkVersion = 23
     compileSdkVersion = 23
     buildToolsVersion = '23.0.3'
 
     // App dependencies
+    supportLibraryVersion = '24.2.0'
     supportLibVersion = '23.4.0'
     playServicesVersion = '9.0.0'
     guavaVersion = '18.0'

@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         setTextColorForImage(((TextView) findViewById(R.id.second_text)), secondPhoto);
     }
 
-private void setTextColorForImage(final TextView textView, Bitmap firstPhoto) {
-    Palette.from(firstPhoto)
+private void setTextColorForImage(final TextView textView, Bitmap bitmap) {
+    Palette.from(bitmap)
             .generate(new Palette.PaletteAsyncListener() {
                 @Override
                 public void onGenerated(Palette palette) {
