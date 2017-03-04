@@ -1,6 +1,6 @@
 # TODO-DataBinding
 
-It is based on the [todo-mvp](https://github.com/googlesamples/android-architecture/tree/todo-mvp/todoapp) sample and uses the Data Binding library to display data and bind UI elements to actions.
+It is based on(基于) the [todo-mvp](https://github.com/googlesamples/android-architecture/tree/todo-mvp/todoapp) sample and uses the Data Binding library to display（展示） data and bind（绑定） UI elements to actions（操作）.
 
 It doesn't follow a strict Model-View-ViewModel or a Model-View-Presenter
 pattern, as it uses both View Models and Presenters.
