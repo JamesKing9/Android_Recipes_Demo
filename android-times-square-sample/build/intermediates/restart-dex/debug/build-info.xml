@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="19"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="55535412564261"
+    token="8748762964684641139"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="365" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="353" />
+    <task
+        name="verifier"
+        duration="90" />
+
+    <artifact
+        location="G:\ASdemoCode\Android_Recipes_Demo\android-times-square-sample\build\outputs\apk\android-times-square-sample-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="55535412564261"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="G:\ASdemoCode\Android_Recipes_Demo\android-times-square-sample\build\outputs\apk\android-times-square-sample-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

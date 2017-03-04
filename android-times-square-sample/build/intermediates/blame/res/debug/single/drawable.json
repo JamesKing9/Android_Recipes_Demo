@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_calendar_bg_selector.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\src\\main\\res\\drawable\\custom_calendar_bg_selector.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_bg_selector.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\exploded-aar\\Android_Recipes_Demo\\library\\unspecified\\res\\drawable\\calendar_bg_selector.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_selected.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\src\\main\\res\\drawable\\bg_circle_selected.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_today.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\src\\main\\res\\drawable\\bg_circle_today.xml"
+    }
+]
