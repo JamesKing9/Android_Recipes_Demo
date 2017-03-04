@@ -12,7 +12,7 @@ data model.
 * Events are also bound with an action handler
     * Data can be observed and set up to be updated automatically when needed
 
-​	 ![mvp-databinding](Screenshot\mvp-databinding.png )
+​	 ![mvp-databinding](mvp-databinding.png )
 
 
 
