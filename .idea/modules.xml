@@ -10,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/3_06_REST/3_06_REST.iml" filepath="$PROJECT_DIR$/3_06_REST/3_06_REST.iml" />
       <module fileurl="file://$PROJECT_DIR$/Android_Recipes_Demo.iml" filepath="$PROJECT_DIR$/Android_Recipes_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-architecture-todo-databinding/android-architecture-todo-databinding.iml" filepath="$PROJECT_DIR$/android-architecture-todo-databinding/android-architecture-todo-databinding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-times-square-sample/android-times-square-sample.iml" filepath="$PROJECT_DIR$/android-times-square-sample/android-times-square-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/some_demos/some_demos.iml" filepath="$PROJECT_DIR$/some_demos/some_demos.iml" />
     </modules>
   </component>
 </project>

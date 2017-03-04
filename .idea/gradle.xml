@@ -15,6 +15,9 @@
             <option value="$PROJECT_DIR$/1_13_RecyclerView" />
             <option value="$PROJECT_DIR$/3_06_REST" />
             <option value="$PROJECT_DIR$/android-architecture-todo-databinding" />
+            <option value="$PROJECT_DIR$/android-times-square-sample" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/some_demos" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

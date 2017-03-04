@@ -1,1 +1,1 @@
-include ':1_13_RecyclerView', ':1_07_AdapterViewEmpty', ':3_06_REST', ':1_08_CustomList', ':1_11_TransitionAnimations', ':1_07_TextOverImages', ':android-architecture-todo-databinding'
+include ':1_13_RecyclerView', ':1_07_AdapterViewEmpty', ':3_06_REST', ':1_08_CustomList', ':1_11_TransitionAnimations', ':1_07_TextOverImages', ':android-architecture-todo-databinding', ':some_demos', ':android-times-square-sample', ':library'
