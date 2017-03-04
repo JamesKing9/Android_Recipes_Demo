@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/1_07_AdapterViewEmpty" />
+            <option value="$PROJECT_DIR$/1_08_CustomList" />
+            <option value="$PROJECT_DIR$/1_11_TransitionAnimations" />
+            <option value="$PROJECT_DIR$/1_13_RecyclerView" />
+            <option value="$PROJECT_DIR$/3_06_REST" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

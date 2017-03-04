@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_07_AdapterViewEmpty/1_07_AdapterViewEmpty.iml" filepath="$PROJECT_DIR$/1_07_AdapterViewEmpty/1_07_AdapterViewEmpty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_08_CustomList/1_08_CustomList.iml" filepath="$PROJECT_DIR$/1_08_CustomList/1_08_CustomList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_11_TransitionAnimations/1_11_TransitionAnimations.iml" filepath="$PROJECT_DIR$/1_11_TransitionAnimations/1_11_TransitionAnimations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_13_RecyclerView/1_13_RecyclerView.iml" filepath="$PROJECT_DIR$/1_13_RecyclerView/1_13_RecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_06_REST/3_06_REST.iml" filepath="$PROJECT_DIR$/3_06_REST/3_06_REST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_Recipes_Demo.iml" filepath="$PROJECT_DIR$/Android_Recipes_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
