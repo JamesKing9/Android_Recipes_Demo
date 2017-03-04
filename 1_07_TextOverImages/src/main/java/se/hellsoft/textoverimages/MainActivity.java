@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
+/**Text覆盖在image上 */
 public class MainActivity extends AppCompatActivity {
 
     @Override
