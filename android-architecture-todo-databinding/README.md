@@ -8,11 +8,13 @@ pattern, as it uses both View Models and Presenters.
 The [Data Binding Library](http://developer.android.com/tools/data-binding/guide.html#data_objects) saves on boilerplate code allowing UI elements to be bound to a property in a
 data model.
 
-  * Layout files are used to bind data to UI elements
-  * Events are also bound with an action handler
-  * Data can be observed and set up to be updated automatically when needed
+* Layout files are used to bind data to UI elements
+* Events are also bound with an action handler
+    * Data can be observed and set up to be updated automatically when needed
 
-<img src="https://github.com/googlesamples/android-architecture/wiki/images/mvp-databinding.png" alt="Diagram"/>
+​	 ![mvp-databinding](Screenshot\mvp-databinding.png )
+
+
 
 ### Data binding
 
@@ -89,12 +91,12 @@ There are multiple ways to create the relevant parts of a feature using the
 Data Binding Library. In this case, the responsibility of each component in
 this sample is:
 
-  * Activity: object creation
-  * Fragment: interaction with framework components (options menu, Snackbar, FAB,
-Adapter for list…)
-  * Presenter: receives user actions and retrieves the data from the repository. If
-it doesn't do data loading, it's calling an action handler (See [TasksItemActionHandler](https://github.com/googlesamples/android-architecture/blob/todo-databinding/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksItemActionHandler.java))
-  * ViewModel: Exposes data for a particular view
+* Activity: object creation
+* Fragment: interaction with framework components (options menu, Snackbar, FAB,
+    Adapter for list…)
+    * Presenter: receives user actions and retrieves the data from the repository. If
+      it doesn't do data loading, it's calling an action handler (See [TasksItemActionHandler](https://github.com/googlesamples/android-architecture/blob/todo-databinding/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksItemActionHandler.java))
+    * ViewModel: Exposes data for a particular view
 
 Some features don't have a ViewModel ([TaskDetail](https://github.com/googlesamples/android-architecture/blob/todo-databinding/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/taskdetail), [AddEditTask](https://github.com/googlesamples/android-architecture/blob/todo-databinding/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask)) as they use the Task model directly.
 
