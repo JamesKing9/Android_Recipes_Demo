@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_enter.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\src\\main\\res\\animator\\fragment_enter.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_pop_enter.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\src\\main\\res\\animator\\fragment_pop_enter.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_pop_exit.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\src\\main\\res\\animator\\fragment_pop_exit.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\animator\\fragment_exit.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\src\\main\\res\\animator\\fragment_exit.xml"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\anim\\activity_close_exit.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\src\\main\\res\\anim\\activity_close_exit.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\anim\\activity_open_enter.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\src\\main\\res\\anim\\activity_open_enter.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\anim\\activity_close_enter.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\src\\main\\res\\anim\\activity_close_enter.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\build\\intermediates\\res\\merged\\debug\\anim\\activity_open_exit.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\1_11_TransitionAnimations\\src\\main\\res\\anim\\activity_open_exit.xml"
+    }
+]

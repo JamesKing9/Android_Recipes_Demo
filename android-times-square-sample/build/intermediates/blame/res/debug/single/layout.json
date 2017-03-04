@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\layout\\sample_calendar_picker.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\src\\main\\res\\layout\\sample_calendar_picker.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\layout\\day_view_custom.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\src\\main\\res\\layout\\day_view_custom.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\layout\\week.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\exploded-aar\\Android_Recipes_Demo\\library\\unspecified\\res\\layout\\week.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_customized.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\src\\main\\res\\layout\\dialog_customized.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\layout\\month.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\exploded-aar\\Android_Recipes_Demo\\library\\unspecified\\res\\layout\\month.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\src\\main\\res\\layout\\dialog.xml"
+    }
+]

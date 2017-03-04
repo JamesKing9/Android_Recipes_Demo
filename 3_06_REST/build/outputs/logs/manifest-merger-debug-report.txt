@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:2:5-32
+		INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml
+		INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml
+		INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml
+		INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:7:22-78
+application
+ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:9:5-28:19
+MERGED from [com.android.support:support-v4:21.0.0] G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:10:9-45
+activity#com.examples.rest.SearchActivity
+ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:12:10-19:21
+	android:label
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:14:14-48
+	android:name
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:13:14-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:15:14-18:30
+action#android.intent.action.MAIN
+ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:16:18-70
+	android:name
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:16:26-67
+category#android.intent.category.LAUNCHER
+ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:17:18-78
+	android:name
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:17:28-75
+activity#com.examples.rest.AuthActivity
+ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:20:9-27:20
+	android:label
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml:21:13-58
+uses-sdk
+INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:21.0.0] G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml
+		INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml
+		INJECTED from G:\ASdemoCode\Android_Recipes_Demo\3_06_REST\src\main\AndroidManifest.xml

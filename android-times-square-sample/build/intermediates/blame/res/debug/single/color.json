@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\color\\custom_calendar_text_selector.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\src\\main\\res\\color\\custom_calendar_text_selector.xml"
+    },
+    {
+        "merged": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\res\\merged\\debug\\color\\calendar_text_selector.xml",
+        "source": "G:\\ASdemoCode\\Android_Recipes_Demo\\android-times-square-sample\\build\\intermediates\\exploded-aar\\Android_Recipes_Demo\\library\\unspecified\\res\\color\\calendar_text_selector.xml"
+    }
+]

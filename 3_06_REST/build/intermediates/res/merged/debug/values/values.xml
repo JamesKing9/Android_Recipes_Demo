@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">REST</string>
+    <string name="label_auth">Authenticated REST</string>
+    <string name="label_rest">Basic REST</string>
+    <string name="menu_settings">Settings</string>
+</resources>
