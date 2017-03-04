@@ -69,7 +69,12 @@ class SimpleItemAdapter extends RecyclerView.Adapter<SimpleItemAdapter.ItemHolde
     }
 
     /* Methods to manage modifying the data set */
-    /**在指定的 position 处添加 item*/
+
+    /**
+     * 在指定的 position 处添加 item
+     * @param item
+     * @param position
+     */
     public void insertItemAtIndex(String item, int position) {
         mItems.add(position, item);
         //Notify the view to trigger（引发） a change animation
