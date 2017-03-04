@@ -13,7 +13,6 @@
             <option value="$PROJECT_DIR$/1_11_TransitionAnimations" />
             <option value="$PROJECT_DIR$/1_13_RecyclerView" />
             <option value="$PROJECT_DIR$/3_06_REST" />
-            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
