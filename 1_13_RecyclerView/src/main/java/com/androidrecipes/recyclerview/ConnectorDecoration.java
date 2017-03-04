@@ -10,6 +10,7 @@ import android.view.View;
 /**
  * <p>自定义条目的装饰：RecyclerView.ItemDecoration</p>
  * <li>1、自己绘制条目的装饰</li>
+ * <li>2、"连线"效果的装饰</li>
  */
 class ConnectorDecoration extends RecyclerView.ItemDecoration {
 

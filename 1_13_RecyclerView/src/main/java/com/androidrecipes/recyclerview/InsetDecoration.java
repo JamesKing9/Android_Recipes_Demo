@@ -5,6 +5,10 @@ import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+/**
+ * <p>自定义条目的装饰：RecyclerView.ItemDecoration</p>
+ * <li>1、"插入间距"效果的装饰</li>
+ */
 public class InsetDecoration extends RecyclerView.ItemDecoration {
 
     private int mInsetMargin;

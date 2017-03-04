@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/1_07_AdapterViewEmpty" />
+            <option value="$PROJECT_DIR$/1_07_TextOverImages" />
             <option value="$PROJECT_DIR$/1_08_CustomList" />
             <option value="$PROJECT_DIR$/1_11_TransitionAnimations" />
             <option value="$PROJECT_DIR$/1_13_RecyclerView" />

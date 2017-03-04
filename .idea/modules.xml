@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1_07_AdapterViewEmpty/1_07_AdapterViewEmpty.iml" filepath="$PROJECT_DIR$/1_07_AdapterViewEmpty/1_07_AdapterViewEmpty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_07_TextOverImages/1_07_TextOverImages.iml" filepath="$PROJECT_DIR$/1_07_TextOverImages/1_07_TextOverImages.iml" />
       <module fileurl="file://$PROJECT_DIR$/1_08_CustomList/1_08_CustomList.iml" filepath="$PROJECT_DIR$/1_08_CustomList/1_08_CustomList.iml" />
       <module fileurl="file://$PROJECT_DIR$/1_11_TransitionAnimations/1_11_TransitionAnimations.iml" filepath="$PROJECT_DIR$/1_11_TransitionAnimations/1_11_TransitionAnimations.iml" />
       <module fileurl="file://$PROJECT_DIR$/1_13_RecyclerView/1_13_RecyclerView.iml" filepath="$PROJECT_DIR$/1_13_RecyclerView/1_13_RecyclerView.iml" />
