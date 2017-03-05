@@ -19,7 +19,6 @@
 
 package com.vv.androidreview.ui.activites;
 
-import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTabHost;
@@ -32,9 +31,8 @@ import android.widget.TextView;
 
 import com.vv.androidreview.R;
 import com.vv.androidreview.base.BaseActivity;
-import com.vv.androidreview.ui.fragment.Indicator;
+import com.vv.androidreview.Indicator;
 import com.vv.androidreview.utils.DoubleClickExitHelper;
-import com.vv.androidreview.utils.ToastHelper;
 
 public class MainActivity extends BaseActivity {
 

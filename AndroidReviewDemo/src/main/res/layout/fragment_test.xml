@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (c) 2016. Vv <envyfan@qq.com><http://www.v-sounds.com/>
   ~
   ~ This file is part of AndroidReview (Android面试复习)
@@ -23,7 +22,7 @@
     android:id="@+id/cl_test_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <!--“测试”的内容页-->
     <com.vv.androidreview.ui.view.LoadingLayout
         android:id="@+id/ly_loading"
         android:layout_width="match_parent"
@@ -48,12 +47,12 @@
             android:textSize="17dp" />
 
         <TextView
-            android:layout_marginTop="10dp"
             android:id="@+id/bt_reset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tv_label_tip"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
             android:background="@drawable/bt_bg"
             android:clickable="true"
             android:padding="5dp"

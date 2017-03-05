@@ -21,7 +21,6 @@ package com.vv.androidreview.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,15 +28,12 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.vv.androidreview.R;
-import com.vv.androidreview.base.MyBaseAdapter;
 import com.vv.androidreview.entity.Point;
 import com.vv.androidreview.ui.activites.ListActivity;
 import com.vv.androidreview.ui.fragment.ReviewFragment;
-import com.vv.androidreview.utils.TDevice;
 
 import java.util.ArrayList;
 import java.util.List;

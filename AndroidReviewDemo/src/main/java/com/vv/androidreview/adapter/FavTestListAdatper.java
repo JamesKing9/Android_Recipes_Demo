@@ -26,7 +26,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.vv.androidreview.R;
-import com.vv.androidreview.base.MyBaseAdapter;
 import com.vv.androidreview.entity.Test;
 
 /**

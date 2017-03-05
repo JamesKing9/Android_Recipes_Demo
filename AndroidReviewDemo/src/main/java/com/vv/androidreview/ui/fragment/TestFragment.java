@@ -56,16 +56,17 @@ import cn.bmob.v3.listener.FindListener;
 
 
 /**
+ * “测试”模块
  * Author：Vv on .
  * Mail：envyfan@qq.com
  * Description：
  */
 public class TestFragment extends BaseFragment {
-    //toolbar 已做题目数目统计
+    /**toolbar 已做题目数目统计*/
     private static int sTestCount = 0;
-    //单选题
+    /**试题的类型：单选题*/
     public static final int TYPE_SINGLE_ANSWER = 1;
-    //简答题
+    /**试题的类型：简答题*/
     public static final int TYPE_QUESTIONS_AND_ANSWERS = 2;
 
     //根布局
@@ -228,6 +229,9 @@ public class TestFragment extends BaseFragment {
         Collections.shuffle(mRandomList);
     }
 
+    /**
+     * 从网络端加载数据
+     */
     private void loadDataByNet() {
         //加载数据前的布局操作
         preLoadLayout();
@@ -237,7 +241,7 @@ public class TestFragment extends BaseFragment {
         } else {
             BmobQuery<Test> query = new BmobQuery<>();
             //根据打乱的题库 题目id randomList 请求时总是拿出List的第一个元素。 在下一题的时候删除List第一个元素 以保证每次从题库拿出来的题目虽然随机，但不会重复
-            query.addWhereEqualTo("testId", mRandomList.get(0));
+            query.addWhereEqualTo("testId", mRandomList.get(0));  /*注意：testId 是0~n-1 */
             query.findObjects(getContext(), new FindListener<Test>() {
                 @Override
                 public void onSuccess(List<Test> list) {
@@ -295,6 +299,9 @@ public class TestFragment extends BaseFragment {
         }
     }
 
+    /**
+     * 读取网上题库并加载题目
+     */
     private void loadTestCountAndData() {
         //准备网络请求前的布局变动
         preLoadLayout();
@@ -365,7 +372,7 @@ public class TestFragment extends BaseFragment {
     }
 
     private void initSingleChoice() {
-        if (mTest.getAnswerA() != null&& !TextUtils.isEmpty(mTest.getAnswerA())) {
+        if (mTest.getAnswerA() != null && !TextUtils.isEmpty(mTest.getAnswerA())) {
             //新建答案选项
             AnswerItem answerA = new AnswerItem(getContext());
             answerA.setChoiceText("A");

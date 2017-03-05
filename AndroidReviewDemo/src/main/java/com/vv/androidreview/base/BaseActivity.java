@@ -33,6 +33,7 @@ import com.vv.androidreview.utils.TDevice;
 
 
 /**
+ * <li>1、初始化toolbar</li>
  * Author：Vv on 2015/7/21 14:41
  * Mail：envyfan@qq.com
  * Description：
@@ -45,6 +46,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         onBeforeSetContentLayout();
+
         //禁止横屏
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         AppManager.getAppManager().addActivity(this);

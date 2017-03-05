@@ -31,6 +31,7 @@ import com.vv.androidreview.R;
 import com.vv.androidreview.entity.Test;
 
 /**
+ * 自定义选择题的答案条目
  * Author：Vv on .
  * Mail：envyfan@qq.com
  * Description：

@@ -19,7 +19,6 @@
 
 package com.vv.androidreview.ui.fragment;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -28,17 +27,15 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.vv.androidreview.R;
-import com.vv.androidreview.base.BaseActivity;
 import com.vv.androidreview.base.BaseFragment;
-import com.vv.androidreview.entity.Suggest;
 import com.vv.androidreview.ui.activites.AboutActivity;
 import com.vv.androidreview.ui.activites.CreateTableActivity;
 import com.vv.androidreview.ui.activites.ListActivity;
-import com.vv.androidreview.ui.activites.MainActivity;
 import com.vv.androidreview.ui.activites.SettingCacheActivity;
 import com.vv.androidreview.ui.activites.SuggestActivity;
 
 /**
+ * "设置"模块
  * Author：Vv on .
  * Mail：envyfan@qq.com
  * Description：
@@ -106,7 +103,7 @@ public class SettingFragment extends BaseFragment{
                     intent.putExtra(ListActivity.CONTENT_TYPE_KEY, ListActivity.LIST_TYPE_FAV_TEST);
                     startActivity(intent);
                     break;
-                case R.id.bt_create_table:
+                case R.id.bt_create_table: /*点击item，跳转到“建表/插入默认数据”界面*/
                     intent.setClass(getContext(), CreateTableActivity.class);
                     startActivity(intent);
                     break;

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (c) 2016. Vv <envyfan@qq.com><http://www.v-sounds.com/>
   ~
   ~ This file is part of AndroidReview (Android面试复习)
@@ -27,10 +26,9 @@
     <include layout="@layout/include_toolbar" />
 
     <FrameLayout
-        android:layout_below="@+id/toolbar"
         android:id="@+id/id_content_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-       />
+        android:layout_below="@+id/toolbar" />
 
 </RelativeLayout>

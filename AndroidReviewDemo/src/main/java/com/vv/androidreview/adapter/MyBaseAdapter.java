@@ -17,11 +17,9 @@
  * along with AndroidReview.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.vv.androidreview.base;
+package com.vv.androidreview.adapter;
 
 import android.content.Context;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
 import java.util.ArrayList;

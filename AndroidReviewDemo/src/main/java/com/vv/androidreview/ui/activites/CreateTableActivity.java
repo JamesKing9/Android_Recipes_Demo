@@ -19,14 +19,12 @@
 
 package com.vv.androidreview.ui.activites;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.orhanobut.logger.Logger;
 import com.vv.androidreview.R;
 import com.vv.androidreview.base.BaseActivity;
 import com.vv.androidreview.entity.Content;
@@ -35,14 +33,16 @@ import com.vv.androidreview.entity.Suggest;
 import com.vv.androidreview.entity.Test;
 import com.vv.androidreview.entity.Unit;
 
-import org.w3c.dom.Text;
-
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.listener.CountListener;
 import cn.bmob.v3.listener.SaveListener;
 
+/**
+ * “建表/插入默认数据”界面
+ */
 public class CreateTableActivity extends BaseActivity {
     public static final int PB_STEP = 20;
+    /**item“建表/插入默认数据”*/
     private TextView mBtCreateTable;
     private ProgressBar mProgressBar;
     @Override
@@ -54,6 +54,7 @@ public class CreateTableActivity extends BaseActivity {
 //        initData();
         mBtCreateTable = (TextView) findViewById(R.id.bt_create);
         mProgressBar = (ProgressBar) findViewById(R.id.progressbar);
+
         mBtCreateTable.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -137,6 +138,9 @@ public class CreateTableActivity extends BaseActivity {
         return getString(R.string.creat_table);
     }
 
+    /**
+     * 初始化“测试”模块的 服务器端的 数据库表
+     */
     public void initTest() {
         BmobQuery<Test> query = new BmobQuery<>();
         query.count(this, Test.class, new CountListener() {
@@ -163,6 +167,9 @@ public class CreateTableActivity extends BaseActivity {
         mProgressBar.setProgress(mProgressBar.getProgress() + PB_STEP);
     }
 
+    /**
+     * 创建“测试”模块的 服务器端的 数据库表
+     */
     private void createTest(int i) {
         Test test = new Test();
         test.setQuestion("题目");

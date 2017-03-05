@@ -17,10 +17,12 @@
  * along with AndroidReview.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.vv.androidreview.ui.fragment;
+package com.vv.androidreview;
 
 
-import com.vv.androidreview.R;
+import com.vv.androidreview.ui.fragment.ReviewFragment;
+import com.vv.androidreview.ui.fragment.SettingFragment;
+import com.vv.androidreview.ui.fragment.TestFragment;
 
 /**
  * Author: Vv on 2015/7/24 16:08
@@ -29,12 +31,15 @@ import com.vv.androidreview.R;
  */
 public enum Indicator {
 
+    /**复习*/
     REVIEW(0, R.string.main_tab_name_review, R.drawable.tab_icon_review,
             ReviewFragment.class),
 
+    /**测试*/
     TEST(1, R.string.main_tab_name_test, R.drawable.tab_icon_test,
             TestFragment.class),
 
+    /*设置*/
     SETTING(2, R.string.main_tab_name_setting, R.drawable.tab_icon_other,
             SettingFragment.class);
 

@@ -47,6 +47,9 @@ import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.CountListener;
 import cn.bmob.v3.listener.SQLQueryListener;
 
+/**
+ * “复习”模块的内容页：支持“下拉刷新”
+ */
 public class ReviewContentListFragment extends BasePutToRefreshFragment<ContentListAdapter> {
     public static final String ARGUMENT_CONTEN_KEY = "argument_conten_key";
     private int mContentCount = 0;

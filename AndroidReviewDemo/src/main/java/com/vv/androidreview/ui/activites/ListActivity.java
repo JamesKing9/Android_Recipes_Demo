@@ -80,6 +80,9 @@ public class ListActivity extends BaseActivity {
         }
     }
 
+    /**
+     * 开启“收藏的题目”模块内容页
+     */
     private void showFavListFragment(){
         mFavListFragment = new FavListFragment();
         Bundle bundle = new Bundle();
@@ -90,6 +93,9 @@ public class ListActivity extends BaseActivity {
 
     }
 
+    /**
+     * 开启“复习”模块的内容页
+     */
     private void showReviewContentListFragment() {
         mReviewContentListFragment = new ReviewContentListFragment();
         Bundle bundle = new Bundle();
@@ -105,7 +111,7 @@ public class ListActivity extends BaseActivity {
         switch (mType) {
             case LIST_TYPE_REVIEW_CONTENT:
                 return mPoint.getName();
-            case LIST_TYPE_FAV_TEST:
+            case LIST_TYPE_FAV_TEST: /*将toolbar设置成“收藏的题目”*/
                 return getString(R.string.my_fav);
             default:
                 return getString(R.string.app_name);

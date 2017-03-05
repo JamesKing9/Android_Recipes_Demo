@@ -30,7 +30,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.vv.androidreview.R;
-import com.vv.androidreview.base.MyBaseAdapter;
 import com.vv.androidreview.entity.Point;
 import com.vv.androidreview.ui.activites.ListActivity;
 import com.vv.androidreview.ui.fragment.ReviewFragment;
@@ -40,14 +39,14 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Author：Vv on .
- * Mail：envyfan@qq.com
- * Description：
  * 复习列表的适配器 （标题+HorizontalScrollView V1.0.1版本后弃用）
  */
 @Deprecated
 public class ReviewListAdapter extends MyBaseAdapter<Map<String, List<Point>>> {
+
     public static final int NO_CONTENT = 0;
+
+    //颜色值设置
     public static final int BROWN = 1;
     public static final int DEEP_ORANGE = 2;
     public static final int ORANGE = 3;

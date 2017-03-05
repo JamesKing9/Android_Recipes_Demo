@@ -19,7 +19,6 @@
 
 package com.vv.androidreview.ui.activites;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -28,6 +27,9 @@ import android.widget.TextView;
 import com.vv.androidreview.R;
 import com.vv.androidreview.base.BaseActivity;
 
+/**
+ * “关于”的界面
+ */
 public class AboutActivity extends BaseActivity {
 
     private TextView mBtAuthor,mBtUpdate;
@@ -39,6 +41,7 @@ public class AboutActivity extends BaseActivity {
         initToolBar();
         showOrHideToolBarNavigation(true);
 
+        /**“来自作者的话”按钮：跳转到“V.v”界面*/
         mBtAuthor = (TextView) findViewById(R.id.bt_about_author);
         mBtAuthor.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +51,7 @@ public class AboutActivity extends BaseActivity {
             }
         });
 
+        /**“更新日志”按钮：跳转到“更新日志”界面*/
         mBtUpdate = (TextView) findViewById(R.id.bt_update_text);
         mBtUpdate.setOnClickListener(new View.OnClickListener() {
             @Override

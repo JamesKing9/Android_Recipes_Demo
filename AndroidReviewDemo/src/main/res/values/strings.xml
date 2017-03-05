@@ -23,7 +23,7 @@
     <string name="tip_double_click_exit">再按一次退出</string>
     <string name="main_tab_name_review">复习</string>
     <string name="main_tab_name_test">测试</string>
-    <string name="main_tab_name_setting">其他</string>
+    <string name="main_tab_name_setting">设置</string>
     <string name="fail_put_to_refresh">网络不太好请重新尝试</string>
     <string name="loading">加载中</string>
     <string name="my_fav">收藏的题目</string>
