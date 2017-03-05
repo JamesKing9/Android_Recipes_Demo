@@ -2,15 +2,15 @@
 
 It is based on(基于) the [todo-mvp](https://github.com/googlesamples/android-architecture/tree/todo-mvp/todoapp) sample and uses the Data Binding library to display（展示） data and bind（绑定） UI elements to actions（操作）.
 
-It doesn't follow a strict Model-View-ViewModel or a Model-View-Presenter
-pattern, as it uses both View Models and Presenters.
+It doesn't follow（遵循） a strict（严格地） Model-View-ViewModel or a Model-View-Presenter
+pattern（模式）, as it uses both View Models and Presenters.
 
-The [Data Binding Library](http://developer.android.com/tools/data-binding/guide.html#data_objects) saves on boilerplate code allowing UI elements to be bound to a property in a
+The [Data Binding Library](http://developer.android.com/tools/data-binding/guide.html#data_objects) saves on boilerplate code（样板代码） allowing UI elements to be bound to a property in a
 data model.
 
 * Layout files are used to bind data to UI elements
-* Events are also bound with an action handler
-    * Data can be observed and set up to be updated automatically when needed
+* Events are also bound（绑定） with an action handler
+    * Data can be observed（观察） and set up to be updated automatically when needed
 
 ​	 ![mvp-databinding](mvp-databinding.png )
 
