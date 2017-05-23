@@ -44,7 +44,6 @@
             android:textSize="20sp" />
     </LinearLayout>
 
-
     <RelativeLayout
         android:id="@+id/bt_cache"
         style="@style/selectableItemBackground"

@@ -61,11 +61,11 @@ public class SettingFragment extends BaseFragment{
     }
 
     private void creatViews() {
+        mBtSettingCache = (RelativeLayout) mRootView.findViewById(R.id.bt_cache);
         mBtSuggest = (RelativeLayout) mRootView.findViewById(R.id.bt_suggest);
         mBtUpdate = (RelativeLayout) mRootView.findViewById(R.id.bt_update);
         mBtAbout = (RelativeLayout) mRootView.findViewById(R.id.bt_about);
         mBtFav = (RelativeLayout) mRootView.findViewById(R.id.bt_my_fav);
-        mBtSettingCache = (RelativeLayout) mRootView.findViewById(R.id.bt_cache);
         mBtCreateTable = (RelativeLayout) mRootView.findViewById(R.id.bt_create_table);
 
         BtClickListener clickListener = new BtClickListener();
