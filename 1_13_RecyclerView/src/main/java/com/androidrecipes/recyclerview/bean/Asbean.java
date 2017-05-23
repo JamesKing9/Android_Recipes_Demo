@@ -1,0 +1,140 @@
+package com.androidrecipes.recyclerview.bean;
+
+import java.util.List;
+
+/**
+ * Created by cheng on 2017/3/7.
+ */
+
+public class Asbean {
+
+    /**
+     * error : false
+     * results : [{"_id":"58bd386e421aa95810795c10","createdAt":"2017-03-06T18:22:38.246Z","desc":"前端每周清单：Instant App将至，WebAssembly将获默认支持，PWA实践渐增","publishedAt":"2017-03-07T11:52:11.670Z","source":"chrome","type":"Android","url":"https://zhuanlan.zhihu.com/p/25597082","used":true,"who":"王下邀月熊"},{"_id":"58bd631b421aa90f0334512f","createdAt":"2017-03-06T21:24:43.452Z","desc":"Android Transition Framework详解","images":["http://img.gank.io/69f29004-2d49-4498-95ad-892bbd10a40e"],"publishedAt":"2017-03-07T11:52:11.670Z","source":"web","type":"Android","url":"http://www.jianshu.com/p/e497123652b5","used":true,"who":null},{"_id":"58be22f6421aa90efc4fb680","createdAt":"2017-03-07T11:03:18.97Z","desc":"Android 查询高亮辅助组件","images":["http://img.gank.io/286cfe99-163d-4aec-9e0b-79ded55e40f8"],"publishedAt":"2017-03-07T11:52:11.670Z","source":"chrome","type":"Android","url":"https://github.com/cyrilmottier/QueryHighlighter","used":true,"who":"带马甲"},{"_id":"58be2323421aa90efc4fb681","createdAt":"2017-03-07T11:04:03.65Z","desc":"MD 风格引导页","images":["http://img.gank.io/e5393ebc-f930-4e24-87c2-690407f0af64"],"publishedAt":"2017-03-07T11:52:11.670Z","source":"chrome","type":"Android","url":"https://github.com/Vexigon/Material-Onboarding","used":true,"who":"带马甲"},{"_id":"58b7c6da421aa90f131785f0","createdAt":"2017-03-02T15:16:42.58Z","desc":"HorizontalPicker view  支持文本和icon","images":["http://img.gank.io/65953272-a41a-4cf4-85cd-3138edf99dab"],"publishedAt":"2017-03-06T11:17:33.140Z","source":"chrome","type":"Android","url":"https://github.com/GoodieBag/HorizontalPicker","used":true,"who":"Jason"},{"_id":"58bb931a421aa90efc4fb65b","createdAt":"2017-03-05T12:24:58.745Z","desc":"VirtualLayout是一个针对RecyclerView的LayoutManager扩展","publishedAt":"2017-03-06T11:17:33.140Z","source":"chrome","type":"Android","url":"https://github.com/alibaba/vlayout","used":true,"who":"Jason"},{"_id":"58bb93d9421aa90f0334511f","createdAt":"2017-03-05T12:28:09.166Z","desc":"Android Markdown 解析库，做的很棒，很有用。","images":["http://img.gank.io/2c55cb54-4321-4b62-8969-50fe15a42e55","http://img.gank.io/736520a8-ce61-4f1b-ad71-7773cc9a173b","http://img.gank.io/29c52aef-9fc2-45e5-828c-04705babb4f9"],"publishedAt":"2017-03-06T11:17:33.140Z","source":"chrome","type":"Android","url":"https://github.com/tiagohm/MarkdownView","used":true,"who":"Jason"},{"_id":"58bc2b27421aa90efc4fb663","createdAt":"2017-03-05T23:13:43.879Z","desc":"Java 语法清单","publishedAt":"2017-03-06T11:17:33.140Z","source":"chrome","type":"Android","url":"https://zhuanlan.zhihu.com/p/25578170","used":true,"who":"王下邀月熊"},{"_id":"58bcb243421aa95810795c02","createdAt":"2017-03-06T08:50:11.127Z","desc":"让 Android HTML 类支持显示更多 Tag，极大的丰富了 TextView 可以展示的 Tag 类型。","publishedAt":"2017-03-06T11:17:33.140Z","source":"chrome","type":"Android","url":"https://github.com/Pixplicity/HtmlCompat","used":true,"who":"代码家"},{"_id":"58bcb2a6421aa90efc4fb667","createdAt":"2017-03-06T08:51:50.505Z","desc":"虽然发了很多个 Pin 码效果的 UI 裤子，但是这个相对好看和正规一些。","images":["http://img.gank.io/e4bd928b-6702-4482-bfa9-0dce0cdad84a"],"publishedAt":"2017-03-06T11:17:33.140Z","source":"chrome","type":"Android","url":"https://github.com/GoodieBag/Pinview","used":true,"who":"带马甲"}]
+     */
+
+    private boolean error;
+    private List<ResultsBean> results;
+
+    public boolean isError() {
+        return error;
+    }
+
+    public void setError(boolean error) {
+        this.error = error;
+    }
+
+    public List<ResultsBean> getResults() {
+        return results;
+    }
+
+    public void setResults(List<ResultsBean> results) {
+        this.results = results;
+    }
+
+    public static class ResultsBean {
+        /**
+         * _id : 58bd386e421aa95810795c10
+         * createdAt : 2017-03-06T18:22:38.246Z
+         * desc : 前端每周清单：Instant App将至，WebAssembly将获默认支持，PWA实践渐增
+         * publishedAt : 2017-03-07T11:52:11.670Z
+         * source : chrome
+         * type : Android
+         * url : https://zhuanlan.zhihu.com/p/25597082
+         * used : true
+         * who : 王下邀月熊
+         * images : ["http://img.gank.io/69f29004-2d49-4498-95ad-892bbd10a40e"]
+         */
+
+        private String _id;
+        private String createdAt;
+        private String desc;
+        private String publishedAt;
+        private String source;
+        private String type;
+        private String url;
+        private boolean used;
+        private String who;
+        private List<String> images;
+
+        public String get_id() {
+            return _id;
+        }
+
+        public void set_id(String _id) {
+            this._id = _id;
+        }
+
+        public String getCreatedAt() {
+            return createdAt;
+        }
+
+        public void setCreatedAt(String createdAt) {
+            this.createdAt = createdAt;
+        }
+
+        public String getDesc() {
+            return desc;
+        }
+
+        public void setDesc(String desc) {
+            this.desc = desc;
+        }
+
+        public String getPublishedAt() {
+            return publishedAt;
+        }
+
+        public void setPublishedAt(String publishedAt) {
+            this.publishedAt = publishedAt;
+        }
+
+        public String getSource() {
+            return source;
+        }
+
+        public void setSource(String source) {
+            this.source = source;
+        }
+
+        public String getType() {
+            return type;
+        }
+
+        public void setType(String type) {
+            this.type = type;
+        }
+
+        public String getUrl() {
+            return url;
+        }
+
+        public void setUrl(String url) {
+            this.url = url;
+        }
+
+        public boolean isUsed() {
+            return used;
+        }
+
+        public void setUsed(boolean used) {
+            this.used = used;
+        }
+
+        public String getWho() {
+            return who;
+        }
+
+        public void setWho(String who) {
+            this.who = who;
+        }
+
+        public List<String> getImages() {
+            return images;
+        }
+
+        public void setImages(List<String> images) {
+            this.images = images;
+        }
+    }
+}
